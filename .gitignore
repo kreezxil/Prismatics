@@ -1,11 +1,8 @@
 /bin/
-/build/
 /common/
 /eclipse/
 /gradle/
 /jars/
-/lib/
-/src/
 /build.gradle
 /CREDITS-fml.txt
 /gradlew

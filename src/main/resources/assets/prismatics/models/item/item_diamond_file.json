@@ -1,0 +1,6 @@
+{
+    "parent":"prismatics:item/standard_item",
+    "textures": {
+        "layer0":"prismatics:items/item_diamond_file"
+    }
+}

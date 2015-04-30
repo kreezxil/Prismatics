@@ -1,0 +1,16 @@
+[
+{
+  "modid": "prismatics",
+  "name": "Prismatics",
+  "description": "Bringing the power of refracted light to your world! - Rainbows!!!",
+  "version": "0.0.3",
+  "mcversion": "1.8",
+  "url": "http://www.kreezcraft.com",
+  "updateUrl": "",
+  "authorList": ["Kreezxil"],
+  "credits": "Wuppy29 & MrCrayFish for their awesome tutorials!",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

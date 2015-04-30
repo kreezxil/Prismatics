@@ -1,0 +1,15 @@
+< en_US.lang - English localization for the mod Prismatics >
+
+< Block Names >
+tile.block_quartz_glass.name=Quartz Glass
+tile.block_prism.name=Prism
+tile.mirror_frame.name=Mirror Frame
+tile.mirror_panel.name=Mirror Panel
+tile.refraction_mirror.name=Refraction Mirror
+
+< Item Names >
+item.item_prism.name=Prism
+item.item_quartz_glass.name=Quartz Glass
+item.item_diamond_file.name=Diamond File
+item.item_diamond_file_tooth.name=Diamond File Tooth
+item.item_diamond_file_head.name=Diamond File Head

@@ -8,7 +8,7 @@
 :extractMcpData UP-TO-DATE
 :getVersionJson
 :extractUserDev
-Download http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.8-11.14.1.1390/forge-1.8-11.14.1.1390-userdev.jar
+Download http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.8-11.14.1.1397/forge-1.8-11.14.1.1397-userdev.jar
 :genSrgs
 :extractNatives UP-TO-DATE
 :getAssetsIndex
@@ -44,4 +44,4 @@ Note: Recompile with -Xlint:unchecked for details.
 
 BUILD SUCCESSFUL
 
-Total time: 12 mins 34.753 secs
+Total time: 10 mins 30.434 secs

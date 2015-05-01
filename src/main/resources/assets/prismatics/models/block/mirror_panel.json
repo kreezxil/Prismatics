@@ -3,9 +3,9 @@
 "ambientocclusion": false,
     "textures": {
         "particle": "prismatics:blocks/glass",
-        "0": "prismatics:blocks/mirror_half_glazed",
+        "0": "prismatics:blocks/mirrorHalfGlazed",
         "1": "prismatics:blocks/glass",
-        "2": "prismatics:blocks/mirror_full_glazed"
+        "2": "prismatics:blocks/mirrorFullGlazed"
     },
     "elements": [
         {

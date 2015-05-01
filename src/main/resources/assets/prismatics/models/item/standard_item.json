@@ -1,7 +1,7 @@
 {
     "parent":"builtin/generated",
     "textures": {
-        "layer0":"prismatics:items/item_diamond_file"
+        "layer0":"prismatics:items/diamond_file"
     },
     "display": {
         "thirdperson": {

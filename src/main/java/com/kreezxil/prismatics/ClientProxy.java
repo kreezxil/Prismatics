@@ -35,16 +35,4 @@ public class ClientProxy extends CommonProxy {
 		super.postInit(event);
 	}
 
-	//Didn't need the following at all
-	/*
-	@SubscribeEvent
-	public void glassDrop(BreakEvent event) {
-		if (event.equals(ModBlocks.block_prism)) {
-			EntityItem item = new EntityItem(event.world, 0, 0, 0, new ItemStack(Item.getItemFromBlock(ModBlocks.block_prism)));
-		}
-		if ( event.equals(ModBlocks.block_quartz_glass)) {
-			EntityItem item = new EntityItem(event.world, 0, 0, 0, new ItemStack(Item.getItemFromBlock(ModBlocks.block_quartz_glass)));
-		}
-	}
-	*/
 }

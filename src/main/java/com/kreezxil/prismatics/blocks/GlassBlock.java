@@ -5,7 +5,9 @@ import java.util.Random;
 import net.minecraft.block.BlockGlass;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumWorldBlockLayer;
+import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
@@ -57,14 +59,4 @@ public class GlassBlock extends BlockGlass {
         return false;
     }
 
-    //not needed since we return an item on break from this class
-    /*
-    @Override
-    @see net.minecraft.block.BlockGlass#canSilkHarvest()
-    protected boolean canSilkHarvest()
-    {
-        return true;
-    }
-    */
 }
-//fuh

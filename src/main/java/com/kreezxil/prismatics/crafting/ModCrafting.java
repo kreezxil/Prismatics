@@ -16,23 +16,24 @@ public class ModCrafting {
 	public static ShapedOreRecipe shapedRecipe;
 	
 	public static void initCrafting() {
-		shapedRecipe = new ShapedOreRecipe(new ItemStack(ModItems.item_diamond_file), "#", "s", '#', ModItems.item_diamond_file_head, 's', Items.stick);
+		shapedRecipe = new ShapedOreRecipe(new ItemStack(ModItems.diamond_file), "#", "s", '#', ModItems.diamond_file_head, 's', Items.stick);
 		GameRegistry.addRecipe(shapedRecipe);
 		
-		shapedRecipe = new ShapedOreRecipe(new ItemStack(ModItems.item_diamond_file), "#", "s", '#', ModItems.item_diamond_file_head, 's', Items.stick);
+		shapedRecipe = new ShapedOreRecipe(new ItemStack(ModItems.diamond_file), "#", "s", '#', ModItems.diamond_file_head, 's', Items.stick);
 		GameRegistry.addRecipe(shapedRecipe);
 		
-		shapedRecipe = new ShapedOreRecipe(new ItemStack(ModItems.item_diamond_file_head),"#","#","#",'#',ModItems.item_diamond_file_tooth);
+		shapedRecipe = new ShapedOreRecipe(new ItemStack(ModItems.diamond_file_head),"#","#","#",'#',ModItems.diamond_file_tooth);
 		GameRegistry.addRecipe(shapedRecipe);
 		
-		shapedRecipe = new ShapedOreRecipe(new ItemStack(ModItems.item_diamond_file_tooth),"#","F",'#',Items.diamond,'F',Items.flint);
+		shapedRecipe = new ShapedOreRecipe(new ItemStack(ModItems.diamond_file_tooth),"#","F",'#',Items.diamond,'F',Items.flint);
 		GameRegistry.addRecipe(shapedRecipe);
+		
 		
 		//recipe = new ShapedOreRecipe(new ItemStack(ModBlocks.block_prism),"FQ",'F',ModItems.item_diamond_file.setContainerItem(ModItems.item_diamond_file),'Q',ModBlocks.block_quartz_glass);
 		
-		GameRegistry.addRecipe(new ItemStack(ModBlocks.block_prism),"FQ",'F',new ItemStack(ModItems.item_diamond_file, 1, OreDictionary.WILDCARD_VALUE),'Q',ModBlocks.block_quartz_glass);
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.prism),"FQ",'F',new ItemStack(ModItems.diamond_file, 1, OreDictionary.WILDCARD_VALUE),'Q',ModBlocks.quartz_glass);
 		
-		GameRegistry.addSmelting(Blocks.quartz_block, new ItemStack(ModBlocks.block_quartz_glass), 1.0F);
+		GameRegistry.addSmelting(Blocks.quartz_block, new ItemStack(ModBlocks.quartz_glass), 1.0F);
 		
 		shapedRecipe = new ShapedOreRecipe(new ItemStack(ModBlocks.mirror_frame),
 				"# #",
@@ -46,6 +47,17 @@ public class ModCrafting {
 		
 		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.refraction_mirror), ModBlocks.mirror_frame, ModBlocks.mirror_panel);
 		
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.slime_stick), Items.slime_ball, Items.stick);
+		
+		shapedRecipe = new ShapedOreRecipe(new ItemStack(ModBlocks.sticky_mirror_frame),
+				"S S",
+				" # ",
+				"# #",
+				'S',ModItems.slime_stick,
+				'#',Items.stick);
+		GameRegistry.addRecipe(shapedRecipe);
+		
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.sticky_refraction_mirror), ModBlocks.sticky_mirror_frame, ModBlocks.mirror_panel);
 	}
 
 }

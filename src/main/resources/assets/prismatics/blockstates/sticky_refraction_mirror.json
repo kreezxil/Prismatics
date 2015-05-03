@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "prismatics:sticky_refraction_mirror" },
+        "facing=south": { "model": "prismatics:sticky_refraction_mirror", "y": 180 },
+        "facing=west":  { "model": "prismatics:sticky_refraction_mirror", "y": 270 },
+        "facing=east":  { "model": "prismatics:sticky_refraction_mirror", "y": 90 }
+    }
+}

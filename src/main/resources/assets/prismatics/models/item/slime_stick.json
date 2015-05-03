@@ -1,6 +1,6 @@
 {
     "parent":"prismatics:item/standard_item",
     "textures": {
-        "layer0":"prismatics:items/prism"
+        "layer0":"prismatics:items/slime_stick"
     }
 }

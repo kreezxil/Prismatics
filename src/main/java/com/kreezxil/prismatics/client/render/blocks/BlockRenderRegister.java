@@ -17,10 +17,12 @@ public final class BlockRenderRegister {
 	}
 	
 	public static void registerBlockRenderer() {
-		reg(ModBlocks.block_prism);
-		reg(ModBlocks.block_quartz_glass);
+		reg(ModBlocks.prism);
+		reg(ModBlocks.quartz_glass);
 		reg(ModBlocks.refraction_mirror);
 		reg(ModBlocks.mirror_frame);
+		reg(ModBlocks.sticky_refraction_mirror);
+		reg(ModBlocks.sticky_mirror_frame);
 		reg(ModBlocks.mirror_panel);
 	}
 }

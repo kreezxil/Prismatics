@@ -18,9 +18,10 @@ public class ItemRenderRegister {
 	public static void registerItemRenderer() {
 		//reg(ModItems.item_prism);
 		//reg(ModItems.item_quartz_glass);
-		reg(ModItems.item_diamond_file);
-		reg(ModItems.item_diamond_file_tooth);
-		reg(ModItems.item_diamond_file_head);
+		reg(ModItems.diamond_file);
+		reg(ModItems.diamond_file_tooth);
+		reg(ModItems.diamond_file_head);
+		reg(ModItems.slime_stick);
 	}
 
 }

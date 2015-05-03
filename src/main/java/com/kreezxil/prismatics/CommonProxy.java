@@ -21,11 +21,16 @@ public class CommonProxy {
 	}
 	
 	public void postInit(FMLPostInitializationEvent event) {
-		OreDict.registerOre("block_quartz_glass", ModBlocks.block_quartz_glass);
-		OreDict.registerOre("block_prism", ModBlocks.block_prism);
-		OreDict.registerOre("mirror_frame", ModBlocks.mirror_frame);
+		OreDict.registerOre("block_quartz_glass", ModBlocks.quartz_glass);
+		OreDict.registerOre("block_prism", ModBlocks.prism);
+
 		OreDict.registerOre("mirror_panel",ModBlocks.mirror_panel);
+		
+		OreDict.registerOre("mirror_frame", ModBlocks.mirror_frame);
 		OreDict.registerOre("refraction_mirror",ModBlocks.refraction_mirror);
+		
+		OreDict.registerOre("sticky_mirror_frame", ModBlocks.sticky_mirror_frame);
+		OreDict.registerOre("sticky_refraction_mirror",ModBlocks.sticky_refraction_mirror);
 	}
 }
 //fuh

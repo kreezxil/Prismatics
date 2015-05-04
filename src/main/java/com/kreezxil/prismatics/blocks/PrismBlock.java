@@ -19,16 +19,10 @@ public class PrismBlock extends GlassBlock {
 		this.setUnlocalizedName(unlocalizedName);
 	}
 	
-/*
-	public boolean canSeeSun() {
-		return 
-	}
-	*/
-	
 	@SideOnly(Side.CLIENT)
     public void randomDisplayTick(World worldIn, BlockPos pos, IBlockState state, Random rand)
     {
-	 
+	   
     }
 }
 //fuh

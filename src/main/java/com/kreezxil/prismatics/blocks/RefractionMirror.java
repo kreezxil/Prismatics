@@ -26,6 +26,7 @@ public class RefractionMirror extends GlassBlock {
 		super(unlocalizedName);
 		this.setUnlocalizedName(unlocalizedName);
 		this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
+		this.setTickRandomly(true);
 	}
 
    @SideOnly(Side.CLIENT)
@@ -57,16 +58,12 @@ public class RefractionMirror extends GlassBlock {
         return new BlockState(this, new IProperty[] { FACING });
     }
    
-    @SideOnly(Side.CLIENT)
+  /*  @SideOnly(Side.CLIENT)
     public Item getItem(World worldIn, BlockPos pos)
     {
         return Item.getItemFromBlock(ModBlocks.refraction_mirror);
     }
-    
-    public Item getItemDropped(IBlockState state, Random rand, int fortune)
-    {
-        return Item.getItemFromBlock(ModBlocks.refraction_mirror);
-    }
+   */ 
 
     public void onBlockAdded(World worldIn, BlockPos pos, IBlockState state)
     {

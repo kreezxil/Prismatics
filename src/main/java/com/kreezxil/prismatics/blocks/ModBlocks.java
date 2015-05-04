@@ -26,7 +26,7 @@ public final class ModBlocks {
 		GameRegistry.registerBlock(refraction_mirror = new RefractionMirror("refraction_mirror"), "refraction_mirror");
 
 		GameRegistry.registerBlock(sticky_mirror_frame = new UnplaceableGlassBlock("sticky_mirror_frame"), "sticky_mirror_frame");
-		GameRegistry.registerBlock(sticky_refraction_mirror = new RefractionMirror("sticky_refraction_mirror"),"sticky_refraction_mirror");
+		GameRegistry.registerBlock(sticky_refraction_mirror = new StickyRefractionMirror("sticky_refraction_mirror"),"sticky_refraction_mirror");
 	}
 }
 //fuh

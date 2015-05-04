@@ -2,10 +2,14 @@ package com.kreezxil.prismatics.blocks;
 
 import java.util.Random;
 
+import net.minecraft.block.Block;
 import net.minecraft.block.BlockGlass;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
 import net.minecraft.tileentity.TileEntity;
+import net.minecraft.util.BlockPos;
 import net.minecraft.util.EnumWorldBlockLayer;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
@@ -57,6 +61,24 @@ public class GlassBlock extends BlockGlass {
     public boolean isFullCube()
     {
         return false;
+    }
+
+    //My goal is that the blocks I create that extend this class will not allow themselves
+    //to float in air without being attached to at least one solid block.
+    @Override
+    public void onNeighborBlockChange(World worldIn, BlockPos pos, IBlockState state, Block neighborBlock) {
+    	if(worldIn.isAirBlock(pos.up()) && worldIn.isAirBlock(pos.down()) &&
+           worldIn.isAirBlock(pos.east()) && worldIn.isAirBlock(pos.west()) &&
+    	   worldIn.isAirBlock(pos.north()) && worldIn.isAirBlock(pos.south())
+    	   ) {
+    		worldIn.setBlockToAir(pos);
+    		this.dropBlockAsItem(worldIn, pos, getDefaultState(), 0);
+    	}
+    }
+    
+    public Item getItemDropped(IBlockState state, Random rand, int fortune)
+    {
+        return Item.getItemFromBlock(this);
     }
 
 }

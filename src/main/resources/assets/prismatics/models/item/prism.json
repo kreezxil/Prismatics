@@ -1,5 +1,5 @@
 {
-    "parent":"prismatics:block/block_prism",
+    "parent":"prismatics:block/prism",
     "display": {
         "thirdperson": {
             "rotation": [ 10, -45, 170 ],

@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "prismatics:block_quartz_glass" }
+        "normal": { "model": "prismatics:quartz_glass" }
     }
 }

@@ -1,5 +1,5 @@
 {
-    "parent":"prismatics:block/block_quartz_glass",
+    "parent":"prismatics:block/quartz_glass",
     "display": {
         "thirdperson": {
             "rotation": [ 10, -45, 170 ],

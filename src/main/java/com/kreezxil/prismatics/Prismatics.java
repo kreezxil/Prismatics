@@ -11,7 +11,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 @Mod(modid = Prismatics.MODID, version = Prismatics.VERSION)
 public class Prismatics {
 		public static final String MODID = "prismatics";
-        public static final String VERSION = "0.0.3.2";
+        public static final String VERSION = "0.0.3.3";
 	    
         @SidedProxy(clientSide="com.kreezxil.prismatics.ClientProxy", serverSide="com.kreezxil.prismatics.ServerProxy")
         public static CommonProxy proxy;

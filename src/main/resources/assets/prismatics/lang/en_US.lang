@@ -10,8 +10,8 @@ tile.sticky_refraction_mirror.name=Sticky Refraction Mirror
 tile.sticky_mirror_frame.name=Sticky Mirror Frame
 
 < Item Names >
-<item.item_prism.name=Prism>
-<item.item_quartz_glass.name=Quartz Glass>
+item.prism.name=Prism
+item.quartz_glass.name=Quartz Glass
 item.diamond_file.name=Diamond File
 item.diamond_file_tooth.name=Diamond File Tooth
 item.diamond_file_head.name=Diamond File Head

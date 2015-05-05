@@ -22,7 +22,7 @@
 :extractMcpData UP-TO-DATE
 :getVersionJson
 :extractUserDev UP-TO-DATE
-:genSrgs UP-TO-DATE
+:genSrgs SKIPPED
 :reobf
 :assemble
 :check UP-TO-DATE
@@ -30,4 +30,4 @@
 
 BUILD SUCCESSFUL
 
-Total time: 2 mins 35.346 secs
+Total time: 31.174 secs

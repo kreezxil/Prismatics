@@ -25,8 +25,8 @@ Bringing the Power of Prisms to Minecraft
 </ul>
 </div>
 <p>&nbsp;</p>
-<p>Changelog always at: <a href="http://sh.st/jtj0H">http://sh.st/jtj0H</a></p>
-<p>Recipes at: <a title="Recipes" href="http://sh.st/jtjk6">http://sh.st/jtjk6</a></p>
+<p>Changelog always at: <a href="http://minecraft.curseforge.com/mc-mods/229752-prismatics">http://minecraft.curseforge.com/mc-mods/229752-prismatics</a></p>
+<p>Recipes at: <a title="Recipes" href="http://minecraft.curseforge.com/mc-mods/229752-prismatics">http://minecraft.curseforge.com/mc-mods/229752-prismatics</a></p>
 <p>&nbsp;</p>
 <p><span style="line-height: 1.428571429;">Mod Pack Restrictions &amp; Requirements:</span></p>
 <p>There are no restrictions, you may include this mod in our pack without asking for permission. There is a requirement; I ask that you link the mod back to my&nbsp;installation at&nbsp;<a href="http://kreezcraft.com/prismatics-mod-by-kreezxil/" target="_blank">http://kreezcraft.com/prismatics-mod-by-kreezxil/</a>.</p>
